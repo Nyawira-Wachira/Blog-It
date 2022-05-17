@@ -7,23 +7,48 @@
 
 ## Description
 
-Blog-It is a flask application that deals with blog posts. It displays blog posts on the homepage and a comment section where users comment on each post. The app allows users to view random quotes in the quotes page on each reload as it utilises a quotes api. Blog-It allows users to create their own blog posts on condition that they have signed up and logged into their accounts. On sign up and login, the app enables users to access a user profile page that displays the username and other user details and allows users to update their profile including changing their profile picture. The app allows users to update and delete posts, to add and delete comments and to edit their profile in the user profile page.
-
+Blog-It is a flask application that enables users to view blog posts and comment on them. It displays blog posts on the homepage and a comment section where users comment on each post. The app utilises sqalchemy which stores user information and allows users to view random quotes in the quotes page on each reload as it utilises a quotes api. Blog-It through WTforms and the Login Manager enables registered users to login to their user accounts, and new users to create accounts through sign up. On Login, users are able to access a user profile page that displays the username and other user details and allows users to update their profile including changing their profile picture. Users are also able to create their own blog posts and comment on other posts.
 
 ## Installation Requirements
 * python version 3 
 * pip
 * flask
 * Wtforms
-* flask-login
-* 
+* SQLAlchemy
 * The virtual environment
 
 ## Setup
   To set up this application:
+  
 * Fork this repository to your github account.
 * Open the terminal on your pc and navigate to the specific folder location that you want this directory to be stored.
 * Clone the forked repository in your account to the specific folder chosen, through the git clone command.
 * Navigate to the specific location you cloned the project into.
 * Open the Blog-It project using vs code using command code . or atom . depending on the IDE you're using.
 * Activate the virtual environment.
+* 
+## Running the Application
+
+* To run the application, open the cloned file in terminal and run the following command:
+
+        $ python3 wsgi.py
+
+## Technologies Used
+Technologies used in the development of this project include:
+
+* Python3.8
+* Flask
+* Bootstrap
+* HTML
+* CSS
+* Sqlalchemy
+
+## Known Bugs
+There are currently no known bugs.
+
+## Support and contact details
+If the application malfunctions or develops a problem, feel free to contact me through email at abigailwachira@gmail.com
+
+### License
+
+This project is under the:
