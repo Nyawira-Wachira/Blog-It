@@ -41,7 +41,11 @@ Blog-It is a flask application that enables users to view blog posts and comment
 
 * To run the application, open the cloned file in terminal and run the following command:
 
-        $ python3 wsgi.py
+        $ python3 run.py
+        
+* To run tests for the application run the following command:
+
+        $ python3 app/test.py
 
 ## Technologies Used
 Technologies used in the development of this project include:
