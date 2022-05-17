@@ -24,7 +24,6 @@ def quotes():
         dict = json.loads(data)
     return render_template('quotes.html', quote=dict["quote"], author=dict["author"])
    
-
 @app.route("/blogpost")
 @login_required
 def blogpost():
