@@ -16,6 +16,9 @@ Blog-It is a flask application that enables users to view blog posts and comment
 
 ![Screenshot from 2022-05-17 19-24-26](https://user-images.githubusercontent.com/100156865/168861907-b9d1aa0c-8a59-4b99-9513-010707bb75ee.png)
 
+![Screenshot from 2022-05-17 19-35-00](https://user-images.githubusercontent.com/100156865/168863161-20b73288-7bf6-4171-abcd-b9dce1744e45.png)
+
+
 ## Installation Requirements
 * python version 3 
 * pip
