@@ -173,6 +173,7 @@ def create_comment(post_id):
     return redirect(url_for('home'))
 
 
+
 @app.route("/delete-comment/<comment_id>")
 @login_required
 def delete_comment(comment_id):
