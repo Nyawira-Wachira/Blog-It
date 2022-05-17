@@ -8,15 +8,9 @@
 ## Description
 
 Blog-It is a flask application that enables users to view blog posts and comment on them. It displays blog posts on the homepage and a comment section where users comment on each post. The app utilises sqalchemy which stores user information and allows users to view random quotes in the quotes page on each reload as it utilises a quotes api. Blog-It through WTforms and the Login Manager enables registered users to login to their user accounts, and new users to create accounts through sign up. On Login, users are able to access a user profile page that displays the username and other user details and allows users to update their profile including changing their profile picture. Users are also able to create their own blog posts and comment on other posts.
-## Previews 
-![Screenshot from 2022-05-17 19-30-17](https://user-images.githubusercontent.com/100156865/168862332-91849b6b-8e11-4db6-8eab-16885d2dbf15.png)
+## Live Link
+[Click here to view](https://abigail-blog-it.herokuapp.com/)
 
-
-![Screenshot from 2022-05-17 19-11-31](https://user-images.githubusercontent.com/100156865/168862513-87d2ae10-4505-4cab-9ee5-b9b95cc9ba5f.png)
-
-![Screenshot from 2022-05-17 19-24-26](https://user-images.githubusercontent.com/100156865/168861907-b9d1aa0c-8a59-4b99-9513-010707bb75ee.png)
-
-![Screenshot from 2022-05-17 19-35-00](https://user-images.githubusercontent.com/100156865/168863161-20b73288-7bf6-4171-abcd-b9dce1744e45.png)
 
 
 ## Installation Requirements
