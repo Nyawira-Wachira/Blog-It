@@ -4,7 +4,7 @@
         <article class="media content-section">
           <img class="rounded-circle article-img" src="{{ url_for('static', filename='image/img3.jpeg') }}">
           <div class="media-body">
-            <h5><p class="article-title" href="{{ url_for('blogpost', post_id=post.id) }}">{{ post.title }}</p></h5>
+            <h5><a class="article-title" href="{{ url_for('blogpost', post_id=post.id) }}">{{ post.title }}</a></h5>
             <p class="article-content">{{ post.content }}</p>  
             <div class="article-metadata">          
               <small class="text-muted">{{ post.date_posted.strftime('%Y-%m-%d') }}</small>
@@ -50,7 +50,7 @@
     {% endfor %}
     {% block footer %}
     <div class ="create" align="center">
-      <a href="/register"><button type="button" class="btn btn-info">
+      <a href="/blogpost"><button type="button" class="btn btn-info">
           Create Blog
         </button></a>
         <a href="/quote"><button type="button" class="btn btn-success">
